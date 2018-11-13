@@ -16,7 +16,8 @@ if __name__ == "__main__":
 
     if command_length < 2 :
         print ("Usage: python digitizer.py <image-name>.jpg")
-        sys.exit(1)if not os.path.exists(directory):
+        sys.exit(1)
+        # if not os.path.exists(directory):
         #     print ("making directory")
         #     os.makedirs(directory)
         #     doc_file.save(file_path)
